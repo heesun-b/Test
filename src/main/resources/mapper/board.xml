@@ -6,11 +6,11 @@
 <mapper namespace="shop.mtcoding.testheesun.model.BoardRepository">
 
 <select id="findAll" resultType="shop.mtcoding.testheesun.model.Board">
-    select * from board_tb
+    select * from board_tb order by id desc
 </select>
 
 <select id="findByUserId" resultType="shop.mtcoding.testheesun.model.Board">
-  select * from board_tb where user_id = #{user_id}
+  select * from board_tb where user_id = #{user_id} order by id desc
 </select>
 
 </mapper>
