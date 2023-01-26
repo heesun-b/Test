@@ -31,7 +31,8 @@
                 }
 
                 .form_box,
-                .write {
+                .write,
+                .button_box {
                     display: flex;
                     justify-content: center;
                     align-items: center;

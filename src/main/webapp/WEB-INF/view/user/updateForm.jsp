@@ -24,7 +24,9 @@
                         </td>
                     </tr>
                 </table>
-                <button type="submit">수정완료</button>
+                <div class="button_box">
+                    <button type="submit">수정완료</button>
+                </div>
             </form>
         </div>
 

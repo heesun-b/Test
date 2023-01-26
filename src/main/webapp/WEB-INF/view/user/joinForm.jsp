@@ -25,8 +25,9 @@
                         </td>
                     </tr>
                 </table>
-                <button type="submit">회원가입완료</button>
-
+                <div class="button_box">
+                    <button type="submit">회원가입완료</button>
+                </div>
             </form>
         </div>
         <%@ include file="../layout/footer.jsp" %>

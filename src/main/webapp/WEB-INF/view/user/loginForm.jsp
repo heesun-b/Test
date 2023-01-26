@@ -18,7 +18,10 @@
                         </td>
                     </tr>
                 </table>
-                <button type="submit">로그인</button>
+
+                <div class="button_box">
+                    <button type="submit">로그인</button>
+                </div>
             </form>
         </div>
         <%@ include file="../layout/footer.jsp" %>
