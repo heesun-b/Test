@@ -9,7 +9,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>test</title>
             <style>
-                .header_box {
+                .header_box,
+                .footer_box {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -29,14 +30,6 @@
                     text-decoration: none;
                 }
 
-                .footer_box {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: skyblue;
-                    height: 100px;
-                }
-
                 .form_box,
                 .write {
                     display: flex;
@@ -53,7 +46,7 @@
         <body>
 
             <div class="header_box">
-                <h1>${pagename} 페이지
+                <h1>${pagename} 페이지</h1>
             </div>
             <hr>
             <div class="header_box2">

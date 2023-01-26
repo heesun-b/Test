@@ -12,7 +12,7 @@
                     <tr>
                         <td>${board.id}</a></td>
                         <td><a href="#none">${board.title}</a></td>
-                        <td>${board.createdAt}</td>
+                        <td>${board.createdAtToString}</td>
                     </tr>
                 </c:forEach>
             </table>

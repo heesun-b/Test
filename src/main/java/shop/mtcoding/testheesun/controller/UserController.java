@@ -71,7 +71,7 @@ public class UserController {
         User user = (User) session.getAttribute("principal");
 
         if (user.getId() != id) {
-            return "redirect:/loginForm";
+            return "redirect:/notfound";
         }
 
         int result = userRepository.update(id, password, email);
