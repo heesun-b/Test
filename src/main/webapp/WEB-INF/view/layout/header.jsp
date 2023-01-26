@@ -37,6 +37,11 @@
                     align-items: center;
                     padding: 10px;
                 }
+
+                td,
+                th {
+                    padding: 10px;
+                }
             </style>
 
         </head>
